@@ -1,0 +1,10 @@
+[package]
+name = "seaorm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-std = { version = "1.13.0", features = ["attributes"] }
+sea-orm = "1.0.1"
+sea-query = { version = "0.31.0", features = ["backend-sqlite"] }
+sqlx = "0.8.2"
